@@ -4,7 +4,7 @@ const app = express()
 const bookRoutes = require("./routes/bookRoutes")
 
 app.get("/", (request, response) => {
-    response.send("Funcionou!")
+    response.send("Seja bem vindo ao CRUD de Livros!")
 })
 
 app.use(express.json())

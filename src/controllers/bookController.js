@@ -8,7 +8,7 @@ const getALLbooks = (req, res) => {
 
 const createBook = (req, res) => {
     const name = req.body.name
-    const author = req.body.age
+    const author = req.body.author
     const publication_date = req.body.publication_date
 
     const newBook = {

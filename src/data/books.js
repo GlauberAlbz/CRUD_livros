@@ -1,9 +1,9 @@
 const books = [
     {
         "id": 1,
-        "name": "Não Tenho Boca e Preciso Gritar",
-        "author": "Harlan Ellison",
-        "publication_date": "1987-03-02"
+        "name": "Não Tenho Bbbbbbbbbbbbbbboca e Preciso Gritar",
+        "author": "Harrrrrrrrrrlan Ellison",
+        "publication_date": "198888887-03-02"
     },
     {
         "id": 2,

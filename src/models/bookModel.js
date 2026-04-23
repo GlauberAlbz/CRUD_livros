@@ -1,4 +1,4 @@
-const books = require("..data/books")
+const books = require("../data/books")
 
 const findALL = () => {
     return books

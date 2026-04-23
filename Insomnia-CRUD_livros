@@ -1,0 +1,180 @@
+type: collection.insomnia.rest/5.0
+schema_version: "5.1"
+name: Scratch Pad
+meta:
+  id: wrk_scratchpad
+  created: 1764769685260
+  modified: 1764769685260
+  description: ""
+collection:
+  - url: localhost:3000
+    name: teste
+    meta:
+      id: req_aa5e2758a14c424dbf8a1e6f068a64e9
+      created: 1773959385000
+      modified: 1773959735685
+      isPrivate: false
+      description: ""
+      sortKey: -1773959385000
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/12.1.0
+        description: ""
+        disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: localhost:3000/books
+    name: lista_livros
+    meta:
+      id: req_f7d0b2d3491847a187fe08d7c27a626b
+      created: 1773960330283
+      modified: 1776983390914
+      isPrivate: false
+      description: ""
+      sortKey: -1773960330283
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/12.1.0
+        description: ""
+        disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: localhost:3000/books/
+    name: cadastra_livro
+    meta:
+      id: req_9845bde9867445d48f8e072c08d3d9de
+      created: 1773960395628
+      modified: 1776983597032
+      isPrivate: false
+      description: ""
+      sortKey: -1773960395628
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"name": "Dom Casmurro",
+        	"author": "Machado de Assis",
+        	"publication_date": "1899-12-05"
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/12.1.0
+        description: ""
+        disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: localhost:3000/books/3
+    name: Busca_livro_por_ID
+    meta:
+      id: req_45823c5c4645492188eaea1937a50be8
+      created: 1774570484232
+      modified: 1776983813565
+      isPrivate: false
+      description: ""
+      sortKey: -1774570484232
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/12.1.0
+        description: ""
+        disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: localhost:3000/books/1
+    name: Atualiza_livro
+    meta:
+      id: req_4a77cf7dc0d7469686b900cb977d6266
+      created: 1775172170715
+      modified: 1776983938304
+      isPrivate: false
+      description: ""
+      sortKey: -1775172170715
+    method: PUT
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"name": "Não Tenho Boca e Preciso Gritar",
+        	"author": "Harlan Ellison",
+        	"publication_date": "1987-03-02"
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/12.1.0
+        description: ""
+        disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: localhost:3000/books/2
+    name: Remove_livro
+    meta:
+      id: req_ec99e9acf28d4a56939c519e03b34705
+      created: 1775177645492
+      modified: 1776983418762
+      isPrivate: false
+      description: ""
+      sortKey: -1774265439930
+    method: DELETE
+    headers:
+      - name: User-Agent
+        value: insomnia/12.1.0
+        description: ""
+        disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_99d30891da4bdcebc63947a8fc17f076de878684
+    created: 1776983240059
+    modified: 1776983240059
+environments:
+  name: Base Environment
+  meta:
+    id: env_99d30891da4bdcebc63947a8fc17f076de878684
+    created: 1776983240057
+    modified: 1776983240057
+    isPrivate: false
